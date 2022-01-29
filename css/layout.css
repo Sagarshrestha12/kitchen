@@ -89,7 +89,7 @@ h3 {
 }
 
 .features {
-  background-color: #ed563b;
+  background-color: #c4c4c4;
   text-align: center;
   padding: 4em 0;
 }
@@ -105,3 +105,9 @@ h3 {
   margin-bottom: 0em;
 }
 
+.lower_features {
+  text-align: center;
+  padding-top: 4em;
+  width: 50%;
+  margin: 0 auto;
+}

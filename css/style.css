@@ -1,41 +1,43 @@
 h3 {
   font-size: 24px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0.1px;
+  font-weight: 600;
 }
 h1 {
   font-size: 58px;
   font-weight: 800;
-  line-height: 80px;
 }
 h2 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 57px;
 }
 
 h4 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 30px;
 }
 h5 {
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 300;
   font-size: 16px;
 }
 h6 {
   font-size: 14px;
-  line-height: 24px;
-  font-weight: 600px;
-  letter-spacing: 0.2px;
+  font-weight: 200px;
 }
 
 .home_navbar a {
   text-decoration: none;
   font-weight: 700;
 }
+
+.lower_features > p > a {
+  color: #ed563b;
+  text-decoration: none;
+}
+
+.lower_features > p > a:hover {
+  color: #6b1607;
+}
+
 @media only screen and (min-width: 800px) {
   .upper_features {
     width: 100%;
