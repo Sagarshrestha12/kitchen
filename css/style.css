@@ -1,8 +1,43 @@
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600px;
+  letter-spacing: 0.2px;
+}
+
 .home_navbar a {
   text-decoration: none;
   font-weight: 700;
 }
 @media only screen and (min-width: 800px) {
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -36,5 +71,12 @@
   .login > button:hover {
     color: white;
     background-color: black;
+  }
+  .mid_header {
+    margin-top: 7rem;
+    text-align: center;
+  }
+  .lower_header {
+    margin-top: 7rem;
   }
 }
