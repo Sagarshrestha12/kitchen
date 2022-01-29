@@ -108,6 +108,30 @@ h3 {
 .lower_features {
   text-align: center;
   padding-top: 4em;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+}
+.lower_features > h2 {
+  padding-bottom: 0.5em;
+}
+.out_weed {
+  text-align: center;
+  width: 100%;
+  margin: 4em auto;
+}
+.out_weed > h2,
+h5 {
+  padding-bottom: 2rem;
+}
+.out_weed > button {
+  background-color: #ed563b;
+  padding: 1em 4.5em;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.out_weed > button:hover {
+  background-color: #6b1607;
 }

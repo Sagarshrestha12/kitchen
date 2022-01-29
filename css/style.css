@@ -53,6 +53,15 @@ h6 {
     width: 45%;
     float: right;
   }
+  .lower_features {
+    width: 70%;
+  }
+  .lower_features > h2 {
+    padding-bottom: 0.5em;
+  }
+  .out_weed {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -119,5 +128,15 @@ h6 {
 
   .upper_features > ul > li:first-child {
     margin-left: 0em;
+  }
+
+  .lower_features {
+    width: 70%;
+  }
+  .lower_features > h2 {
+    padding-bottom: 0.5em;
+  }
+  .out_weed {
+    width: 80%;
   }
 }
