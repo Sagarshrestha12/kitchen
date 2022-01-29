@@ -37,7 +37,20 @@ h6 {
   font-weight: 700;
 }
 @media only screen and (min-width: 800px) {
-
+  .upper_features {
+    width: 100%;
+  }
+  .top_header {
+    padding-bottom: 17em;
+  }
+  .upper_features > ul > li:nth-child(odd) {
+    width: 45%;
+    float: left;
+  }
+  .upper_features > ul > li:nth-child(even) {
+    width: 45%;
+    float: right;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -47,6 +60,13 @@ h6 {
   .icon {
     display: none;
   }
+  .top_header {
+    padding-bottom: 15rem;
+  }
+  .top_header {
+    padding-bottom: 25em;
+  }
+
   .home_navbar {
     clear: none;
     float: left;
@@ -78,5 +98,24 @@ h6 {
   }
   .lower_header {
     margin-top: 7rem;
+  }
+  .upper_features {
+    width: 100%;
+  }
+
+  .upper_features > ul > li:nth-child(odd),
+  .upper_features > ul > li:nth-child(even) {
+    margin-bottom: 0em;
+    float: left;
+    width: 25%;
+    margin-left: 9.3em;
+  }
+
+  .upper_features > ul > li > img {
+    padding-bottom: 1em;
+  }
+
+  .upper_features > ul > li:first-child {
+    margin-left: 0em;
   }
 }
