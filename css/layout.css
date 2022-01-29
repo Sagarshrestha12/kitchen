@@ -114,10 +114,14 @@ h3 {
 .lower_features > h2 {
   padding-bottom: 0.5em;
 }
+.out_weed_container {
+  background-color: yellow;
+}
 .out_weed {
   text-align: center;
   width: 100%;
-  margin: 4em auto;
+  margin: 0em auto;
+  padding: 4em 0em;
 }
 .out_weed > h2,
 h5 {
@@ -134,4 +138,11 @@ h5 {
 }
 .out_weed > button:hover {
   background-color: #6b1607;
+}
+.footer_upper {
+  text-align: center;
+}
+
+.footer_upper > ul > li {
+  padding-bottom: 1rem;
 }
