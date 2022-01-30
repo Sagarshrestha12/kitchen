@@ -140,9 +140,29 @@ h5 {
   background-color: #6b1607;
 }
 .footer_upper {
+  margin: 0 auto;
+}
+.footer {
+  padding: 4rem 0;
+}
+.footer_coloum > ul > li:first-child {
+  font-weight: 700;
+}
+.footer_coloum p {
   text-align: center;
 }
 
-.footer_upper > ul > li {
+.footer_coloum > ul > li {
+  text-align: center;
+
+  padding-bottom: 0.5rem;
+}
+.footer_coloum {
   padding-bottom: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
+.footer_lower > p > a {
+  text-decoration: none;
+  color: black;
 }

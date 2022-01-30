@@ -62,6 +62,11 @@ h6 {
   .out_weed {
     width: 80%;
   }
+  .footer_coloum {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -138,5 +143,20 @@ h6 {
   }
   .out_weed {
     width: 80%;
+  }
+  .footer_coloum > ul > li {
+    text-align: left;
+  }
+  .footer_coloum {
+    width: 15%;
+    margin-left: 8%;
+  }
+  div.footer_coloum:nth-child(1) {
+    margin-left: 0;
+  }
+  div.footer_coloum:last-child {
+    float: right;
+    margin-left: 0%;
+    width: 10%;
   }
 }
